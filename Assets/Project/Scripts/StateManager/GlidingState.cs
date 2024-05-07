@@ -4,19 +4,19 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class GlidingState : PlayerState
 {
     private MovementSM _sm;
-    private float glideForce = 5f; // 自定义的滑翔力大小
+    private float glideForce = 6f; // 自定义的滑翔力大小
 
     private Transform leftController;
     private Transform rightController;
 
     private Vector3 glideDeriction;
-    private float glideFoward = 0.2f;
+    private float glideFoward = 0.1f;
 
     public float threshold = 0.1f; // 差异阈值
-    public float forceMagnitude = 0.28f; // 施加的力大小
+    public float forceMagnitude = 1f; // 施加的力大小
 
-    public float rotationSpeed = 8f; // 旋转速度（每秒度）
-    public float maxSpeed = 9f;
+    public float rotationSpeed = 7f; // 旋转速度（每秒度）
+    public float maxSpeed = 8f;
 
     public GlidingState(MovementSM stateMachine) : base("GlidingState", stateMachine)
     {

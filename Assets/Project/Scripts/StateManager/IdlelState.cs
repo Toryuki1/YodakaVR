@@ -7,7 +7,7 @@ public class IdleState : PlayerState
 {
     private MovementSM _sm;
     private float flapForce = 1f;
-    private float upForce = 3f;
+    private float upForce = 2f;
     private Vector3 flapForceDirection = new Vector3(0f, 4f, 1f).normalized;
     private Vector3 upWard = new Vector3(0f, 2f, 0f).normalized;
 
