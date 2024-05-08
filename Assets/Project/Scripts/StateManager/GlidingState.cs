@@ -4,7 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class GlidingState : PlayerState
 {
     private MovementSM _sm;
-    private float glideForce = 6f; // 自定义的滑翔力大小
+    private float glideForce = -9f; // 自定义的滑翔力大小
 
     private Transform leftController;
     private Transform rightController;
@@ -15,7 +15,7 @@ public class GlidingState : PlayerState
     public float threshold = 0.1f; // 差异阈值
     public float forceMagnitude = 1f; // 施加的力大小
 
-    public float rotationSpeed = 7f; // 旋转速度（每秒度）
+    public float rotationSpeed = 8f; // 旋转速度（每秒度）
     public float maxSpeed = 8f;
 
     public GlidingState(MovementSM stateMachine) : base("GlidingState", stateMachine)
@@ -60,7 +60,7 @@ public class GlidingState : PlayerState
     {
         base.UpdatePhysics();
         // 给物体施加持续的浮力
-        _sm.player.GetComponent<Rigidbody>().AddForce(Vector3.down * glideForce, ForceMode.Acceleration);
+        _sm.player.GetComponent<Rigidbody>().AddForce(Vector3.up * glideForce, ForceMode.Acceleration);
         AddForce();
 
         Rigidbody rigidbody = _sm.player.GetComponent<Rigidbody>();

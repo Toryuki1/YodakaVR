@@ -22,12 +22,12 @@ public class PlayerStateMachine: MonoBehaviour
         if(currentPlayerState != null) currentPlayerState.EnterState();
     }
 
-    void FixedUpdate()
+    void LateUpdate()
     {
         if(currentPlayerState != null) currentPlayerState.UpdateLogic();
     }
 
-    void LateUpdate()
+    void FixedUpdate()
     {
         if(currentPlayerState != null) currentPlayerState.UpdatePhysics();
     }

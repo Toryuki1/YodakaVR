@@ -3,12 +3,12 @@ using UnityEngine;
 public class FlappingState : PlayerState
 {
     private MovementSM _sm;
-    private float flapForce = 1f;
+    private float flapForce = 1.2f;
     private float upForce = 0.3f;
     private Vector3 flapForceDirection = new Vector3(1f, 2f, 0f).normalized;
     private Vector3 upWard = new Vector3(0f, 2f, 0f).normalized;
     private float gravity = 0.8f;
-    public float maxSpeed = 4f;
+    public float maxSpeed = 4.5f;
 
     private Transform leftController;
     private Transform rightController;
@@ -23,7 +23,7 @@ public class FlappingState : PlayerState
     private Quaternion lastRightRotation;
     private float xRotationThreshold = 12f; // 挥动检测阈值
 
-    public float forceMagnitude = 0.8f;
+    public float forceMagnitude = 0.6f;
 
     public FlappingState(MovementSM stateMachine) : base("FlappingState", stateMachine)
     {
