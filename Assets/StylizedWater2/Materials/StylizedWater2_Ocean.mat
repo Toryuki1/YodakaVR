@@ -13,6 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ADVANCED_SHADING
+  - _DISABLE_DEPTH_TEX
   - _DISTANCE_NORMALS
   - _FOAM
   - _NORMALMAP
@@ -156,7 +157,7 @@ Material:
     - _DepthMode: 0
     - _DepthTexture: 1
     - _DepthVertical: 8
-    - _DisableDepthTexture: 0
+    - _DisableDepthTexture: 1
     - _DistanceNormalsOn: 1
     - _DistanceNormalsTiling: 0.079999976
     - _DstBlend: 0

@@ -10,9 +10,11 @@ Material:
   m_Name: StylizedWater2_Clear
   m_Shader: {fileID: -6465566751694194690, guid: d7b0192b9bf19c949900035fa781fdc4,
     type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ADVANCED_SHADING
   - _CAUSTICS
+  - _DISABLE_DEPTH_TEX
   - _NORMALMAP
   - _REFRACTION
   m_InvalidKeywords:
@@ -23,12 +25,14 @@ Material:
   - _VERTEXCOLORWAVEFLATTENING_ON
   - _WORLDSPACEUV_ON
   - _ZCLIP_ON
+  - _ZWRITE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: _EdgeFade _IntersectionStyle _TranslucencyOn
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -150,7 +154,7 @@ Material:
     - _DepthMode: 0
     - _DepthTexture: 1
     - _DepthVertical: 5.82
-    - _DisableDepthTexture: 0
+    - _DisableDepthTexture: 1
     - _DistanceNormalsOn: 0
     - _DistanceNormalsTiling: 0.25
     - _DstBlend: 0
@@ -225,7 +229,7 @@ Material:
     - _RimRize: 1
     - _RimTiling: 0.025
     - _RiverModeOn: 0
-    - _ShadingMode: 1
+    - _ShadingMode: 0
     - _ShadowStrength: 1
     - _ShoreLineLength: 2.4
     - _ShoreLineWaveDistance: 30
@@ -252,6 +256,9 @@ Material:
     - _SunReflectionStrength: 5
     - _Surface: 0
     - _TEXTURE_INTERSECTIONOn: 1
+    - _TessMax: 15
+    - _TessMin: 0
+    - _TessValue: 16
     - _Texture_IntersectionOn: 0
     - _Tiling: 0.5
     - _Translucency: 0
@@ -270,14 +277,14 @@ Material:
     - _WaveDistance: 0.879
     - _WaveHeight: 0
     - _WaveNormalStr: 0.032
-    - _WaveSpeed: 3
+    - _WaveSpeed: 4
     - _WaveSteepness: 0
     - _WaveTint: 0
     - _WavesOn: 0
     - _WorkflowMode: 1
     - _WorldSpaceUV: 1
     - _ZClip: 1
-    - _ZWrite: 0
+    - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0, g: 0.16451614, b: 0.34, a: 0.9843137}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}

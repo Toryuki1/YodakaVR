@@ -10,9 +10,11 @@ Material:
   m_Name: StylizedWater2_RiverDemo
   m_Shader: {fileID: -6465566751694194690, guid: d7b0192b9bf19c949900035fa781fdc4,
     type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ADVANCED_SHADING
   - _CAUSTICS
+  - _DISABLE_DEPTH_TEX
   - _FOAM
   - _NORMALMAP
   - _RECEIVE_SHADOWS_OFF
@@ -34,6 +36,7 @@ Material:
   m_CustomRenderQueue: 3001
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -126,7 +129,7 @@ Material:
     - _DepthExp: 1
     - _DepthHorizontal: 0.6
     - _DepthVertical: 16
-    - _DisableDepthTexture: 0
+    - _DisableDepthTexture: 1
     - _DistanceNormalsOn: 0
     - _DistanceNormalsTiling: 0.25
     - _DstBlend: 0
@@ -190,7 +193,7 @@ Material:
     - _RefractionOn: 1
     - _RefractionStrength: 1
     - _RiverModeOn: 1
-    - _ShadingMode: 1
+    - _ShadingMode: 0
     - _ShadowStrength: 1
     - _SlopeAngleFalloff: 90
     - _SlopeAngleThreshold: 40.2
