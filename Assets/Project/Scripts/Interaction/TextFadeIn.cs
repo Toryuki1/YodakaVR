@@ -41,7 +41,7 @@ public class TextFadeIn : MonoBehaviour
         while (textMeshPro.alpha > 0f)
         {
             textMeshPro.alpha -= Time.deltaTime * fadeOutSpeed;
-            //boxCollider.enabled = false;
+            boxCollider.enabled = false;
             yield return null;
         }
     }

@@ -3,7 +3,7 @@ using UnityEngine;
 public class FlappingState : PlayerState
 {
     private MovementSM _sm;
-    private float flapForce = 1.2f;
+    private float flapForce = 1.1f;
     private float upForce = 0.3f;
     private Vector3 flapForceDirection = new Vector3(1f, 2f, 0f).normalized;
     private Vector3 upWard = new Vector3(0f, 2f, 0f).normalized;
@@ -14,7 +14,7 @@ public class FlappingState : PlayerState
     private Transform rightController;
     private Transform player;
 
-    private Vector3 previousPosition;
+
     private bool leftSwing = false;
     private bool rightSwing = false;
     private float swingDelay = 0.6f;
@@ -38,12 +38,16 @@ public class FlappingState : PlayerState
         rightController = _sm.rightController;
         lastLeftRotation = leftController.rotation;
         lastRightRotation = rightController.rotation;
+
+        
     }
 
     public override void UpdateLogic()
     {
         base.UpdateLogic();
         flapForceDirection = _sm.player.forward;
+
+
         Rigidbody rigidbody = _sm.player.GetComponent<Rigidbody>();
         Vector3 currentVelocity = rigidbody.velocity;
 
