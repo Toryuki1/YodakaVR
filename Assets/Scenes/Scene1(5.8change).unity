@@ -655,10 +655,20 @@ PrefabInstance:
       propertyPath: m_CameraType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1758220641044717575, guid: a61460d2ba83bad4b894579c09fc852b,
+        type: 3}
+      propertyPath: m_RequiresDepthTextureOption
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2868978002342831651, guid: a61460d2ba83bad4b894579c09fc852b,
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2960678227768689696, guid: a61460d2ba83bad4b894579c09fc852b,
+        type: 3}
+      propertyPath: m_RequiresDepthTextureOption
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4708259024728087164, guid: a61460d2ba83bad4b894579c09fc852b,
         type: 3}
@@ -2518,7 +2528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
+  m_RequiresDepthTextureOption: 0
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
@@ -3770,7 +3780,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9d174a3584a13d84fa7542f2b3a5802b, type: 2}
+      objectReference: {fileID: -8745810198174655899, guid: d14d85bb0fd7eea4c8b831b681349cf1,
+        type: 2}
     - target: {fileID: 8139392914505269039, guid: 2858b002785db0c458cda2b96b98a8ec,
         type: 3}
       propertyPath: m_Name
@@ -4977,7 +4988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &578903022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7400,7 +7411,7 @@ TerrainCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_TerrainData: {fileID: 15600000, guid: cbff9dc124bf93e43b615b77bb6af992, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 0256714ad3b4ca5428493486c5a85fa1, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &904028809
 Terrain:
@@ -7411,7 +7422,7 @@ Terrain:
   m_GameObject: {fileID: 904028807}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: cbff9dc124bf93e43b615b77bb6af992, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 0256714ad3b4ca5428493486c5a85fa1, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -7423,7 +7434,7 @@ Terrain:
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
-  m_DrawInstanced: 0
+  m_DrawInstanced: 1
   m_DrawTreesAndFoliage: 1
   m_StaticShadowCaster: 0
   m_IgnoreQualitySettings: 0
@@ -11640,7 +11651,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1397400820
 Transform:
   m_ObjectHideFlags: 0
@@ -12110,7 +12121,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9d174a3584a13d84fa7542f2b3a5802b, type: 2}
+      objectReference: {fileID: -8745810198174655899, guid: d14d85bb0fd7eea4c8b831b681349cf1,
+        type: 2}
     - target: {fileID: 8139392914505269039, guid: 2858b002785db0c458cda2b96b98a8ec,
         type: 3}
       propertyPath: m_Name
@@ -12481,7 +12493,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9d174a3584a13d84fa7542f2b3a5802b, type: 2}
+      objectReference: {fileID: -8745810198174655899, guid: d14d85bb0fd7eea4c8b831b681349cf1,
+        type: 2}
     - target: {fileID: 8139392914505269039, guid: 2858b002785db0c458cda2b96b98a8ec,
         type: 3}
       propertyPath: m_Name
@@ -13120,7 +13133,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1543146251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14779,7 +14792,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 9.85
+  m_Intensity: 9.74
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -16839,7 +16852,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9d174a3584a13d84fa7542f2b3a5802b, type: 2}
+      objectReference: {fileID: -8745810198174655899, guid: d14d85bb0fd7eea4c8b831b681349cf1,
+        type: 2}
     - target: {fileID: 8139392914505269039, guid: 2858b002785db0c458cda2b96b98a8ec,
         type: 3}
       propertyPath: m_Name
@@ -18340,7 +18354,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1024560205652283230
 Transform:
   m_ObjectHideFlags: 0
