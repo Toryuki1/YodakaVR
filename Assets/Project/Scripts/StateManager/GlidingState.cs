@@ -4,7 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class GlidingState : PlayerState
 {
     private MovementSM _sm;
-    private float glideForce = -10f; // 自定义的滑翔力大小
+    private float glideForce = -9f; // 自定义的滑翔力大小
 
     private Transform leftController;
     private Transform rightController;
