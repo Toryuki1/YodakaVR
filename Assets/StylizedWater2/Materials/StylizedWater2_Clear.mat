@@ -17,6 +17,7 @@ Material:
   - _DISABLE_DEPTH_TEX
   - _NORMALMAP
   - _REFRACTION
+  - _WAVES
   m_InvalidKeywords:
   - ADVANCED_LIGHTING
   - _DEPTHEXP_ON
@@ -25,14 +26,13 @@ Material:
   - _VERTEXCOLORWAVEFLATTENING_ON
   - _WORLDSPACEUV_ON
   - _ZCLIP_ON
-  - _ZWRITE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: _EdgeFade _IntersectionStyle _TranslucencyOn
+  m_LockedProperties: _EdgeFade _TranslucencyOn
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -150,10 +150,10 @@ Material:
     - _Cutoff: 0.5
     - _Depth: 0.84
     - _DepthExp: 1
-    - _DepthHorizontal: 0.01
+    - _DepthHorizontal: 2.98
     - _DepthMode: 0
     - _DepthTexture: 1
-    - _DepthVertical: 5.82
+    - _DepthVertical: 0.01
     - _DisableDepthTexture: 1
     - _DistanceNormalsOn: 0
     - _DistanceNormalsTiling: 0.25
@@ -163,8 +163,8 @@ Material:
     - _EnvironmentReflectionsOn: 1
     - _FlatShadingOn: 0
     - _FlowSpeed: 1
-    - _FoamBaseAmount: 0.424
-    - _FoamClipping: 0
+    - _FoamBaseAmount: 0.156
+    - _FoamClipping: 0.978
     - _FoamDistortion: 0.1
     - _FoamOn: 0
     - _FoamOpacity: 0.081
@@ -275,16 +275,16 @@ Material:
     - _VertexColorWaveFlattening: 1
     - _WaveCount: 4
     - _WaveDistance: 0.879
-    - _WaveHeight: 0
+    - _WaveHeight: 0.21
     - _WaveNormalStr: 0.032
-    - _WaveSpeed: 4
+    - _WaveSpeed: 2
     - _WaveSteepness: 0
     - _WaveTint: 0
-    - _WavesOn: 0
+    - _WavesOn: 1
     - _WorkflowMode: 1
     - _WorldSpaceUV: 1
     - _ZClip: 1
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 0, g: 0.16451614, b: 0.34, a: 0.9843137}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
