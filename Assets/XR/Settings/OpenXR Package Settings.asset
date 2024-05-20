@@ -205,8 +205,8 @@ MonoBehaviour:
   - {fileID: -8406883153669324579}
   - {fileID: -7279470150145481254}
   - {fileID: -6983957838582145841}
-  m_renderMode: 1
-  m_depthSubmissionMode: 0
+  m_renderMode: 0
+  m_depthSubmissionMode: 1
 --- !u!114 &-4860041595472728100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -721,31 +721,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - {fileID: -308115614805875557}
-  - {fileID: -3754534983664583198}
   - {fileID: -6808246845720504836}
   - {fileID: 6070925360752253939}
-  - {fileID: -3884453101578902787}
   - {fileID: 1332037697988205828}
   - {fileID: -4222439278532902050}
   - {fileID: 1259144473753588721}
-  - {fileID: 348259456651477331}
   - {fileID: 5831612060146028343}
   - {fileID: 2342799138300695208}
   - {fileID: -8552310704001457193}
   - {fileID: 917699976151006809}
   - {fileID: 4545185823910175280}
   - {fileID: 6003497957563324349}
-  - {fileID: 5469220906135155108}
   - {fileID: 7600911845700064912}
-  - {fileID: 6600218358681648086}
-  - {fileID: -1857999552871616896}
-  - {fileID: 2019101694852986174}
-  - {fileID: -6178017311828514783}
-  - {fileID: 3046305165135280002}
-  - {fileID: -8641785699176208471}
   - {fileID: 940002396009808545}
-  m_renderMode: 1
-  m_depthSubmissionMode: 0
+  m_renderMode: 0
+  m_depthSubmissionMode: 1
 --- !u!114 &5469220906135155108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -779,7 +769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f647cc0545697264a9878224faada6d5, type: 3}
   m_Name: MetaQuestFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.metaquest
@@ -810,7 +800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch

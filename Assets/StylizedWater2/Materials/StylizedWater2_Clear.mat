@@ -14,7 +14,6 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _CAUSTICS
-  - _DISABLE_DEPTH_TEX
   - _NORMALMAP
   - _REFRACTION
   - _WAVES
@@ -32,7 +31,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: _EdgeFade _TranslucencyOn
+  m_LockedProperties: _EdgeFade _HorizonColor _TranslucencyOn
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -154,7 +153,7 @@ Material:
     - _DepthMode: 0
     - _DepthTexture: 1
     - _DepthVertical: 0.01
-    - _DisableDepthTexture: 1
+    - _DisableDepthTexture: 0
     - _DistanceNormalsOn: 0
     - _DistanceNormalsTiling: 0.25
     - _DstBlend: 0
@@ -252,8 +251,8 @@ Material:
     - _SrcBlend: 1
     - _SunReflectionDistortion: 0.9
     - _SunReflectionPerturbance: 0.707
-    - _SunReflectionSize: 0.914
-    - _SunReflectionStrength: 5
+    - _SunReflectionSize: 0.726
+    - _SunReflectionStrength: 0.95
     - _Surface: 0
     - _TEXTURE_INTERSECTIONOn: 1
     - _TessMax: 15
@@ -298,7 +297,7 @@ Material:
     - _IntersectionColor: {r: 1, g: 1, b: 1, a: 1}
     - _NormalTiling: {r: 0.3, g: 0.3, b: 0, a: 0}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShallowColor: {r: 0, g: 1, b: 0.98136926, a: 0}
+    - _ShallowColor: {r: 0.30498737, g: 0.5520116, b: 0.7156938, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _WaterColor: {r: 0.21176466, g: 0.6745098, b: 1, a: 1}
     - _WaterShallowColor: {r: 0, g: 0.9394503, b: 1, a: 1}
