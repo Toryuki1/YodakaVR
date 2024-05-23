@@ -14,6 +14,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _CAUSTICS
+  - _DISABLE_DEPTH_TEX
   - _NORMALMAP
   - _REFRACTION
   - _WAVES
@@ -31,7 +32,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: _EdgeFade _HorizonColor _TranslucencyOn
+  m_LockedProperties: _EdgeFade _HorizonColor _TranslucencyOn _WaveSteepness
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -153,7 +154,7 @@ Material:
     - _DepthMode: 0
     - _DepthTexture: 1
     - _DepthVertical: 0.01
-    - _DisableDepthTexture: 0
+    - _DisableDepthTexture: 1
     - _DistanceNormalsOn: 0
     - _DistanceNormalsTiling: 0.25
     - _DstBlend: 0
