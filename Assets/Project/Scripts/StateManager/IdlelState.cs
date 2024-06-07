@@ -14,6 +14,7 @@ public class IdleState : PlayerState
     private Transform leftController;
     private Transform rightController;
     private Transform player;
+    private Transform cam;
 
     private Vector3 previousPosition;
     private bool leftSwing = false;
@@ -46,7 +47,7 @@ public class IdleState : PlayerState
         base.UpdateLogic();
         Rigidbody rigidbody = _sm.player.GetComponent<Rigidbody>();
         rigidbody.AddForce(Vector3.down * gravity, ForceMode.Acceleration);
-        flapForceDirection = _sm.player.forward;
+        flapForceDirection = _sm.cam.forward;
         // 检测挥动触发 Flap
         DetectSwing();
     }

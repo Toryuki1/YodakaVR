@@ -18,6 +18,7 @@ public class MovementSM : PlayerStateMachine
     public FlappingState flappingState;
 
     public Transform player;
+    public Transform cam;
     public Transform leftController;
     public Transform rightController;
 

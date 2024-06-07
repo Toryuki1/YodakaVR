@@ -14151,6 +14151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 113ce72af23cb2e49a08d25ce55eee47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
 --- !u!65 &952453281
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16667,6 +16668,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69d257d302a97474a95f8b269ac24a1b, type: 3}
+--- !u!114 &1195522324 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8795453824944317008, guid: 69d257d302a97474a95f8b269ac24a1b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1195522323}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e8bfdfd786599e4e9e66234056e2ad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1197160578
 GameObject:
   m_ObjectHideFlags: 0
@@ -23234,6 +23247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49829d6461ab1d549977b001493e7f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 1195522324}
 --- !u!1 &1726470017
 GameObject:
   m_ObjectHideFlags: 0

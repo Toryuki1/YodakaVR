@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2631571751663883486}
+  - component: {fileID: 8795453824944317008}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -32,6 +33,20 @@ Transform:
   - {fileID: 3473299022262945778}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8795453824944317008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865964985276447483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e8bfdfd786599e4e9e66234056e2ad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgmSource: {fileID: 8688840858742620087}
+  fadeDuration: 1
 --- !u!1 &8277579675497090457
 GameObject:
   m_ObjectHideFlags: 0

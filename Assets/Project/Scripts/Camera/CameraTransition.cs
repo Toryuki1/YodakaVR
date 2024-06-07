@@ -20,7 +20,7 @@ public class CameraTransition : MonoBehaviour
         BlinkEffect.Instance.TriggerBlink();
         
         // 等待 0.5 秒
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.3f);
 
         // 遍历并关闭所有需要关闭的物体
         foreach (GameObject obj in objectsToDisable)

@@ -7,12 +7,13 @@ public class FlappingState : PlayerState
     private float upForce = 0.3f;
     private Vector3 flapForceDirection = new Vector3(1f, 2f, 0f).normalized;
     private Vector3 upWard = new Vector3(0f, 2f, 0f).normalized;
-    private float gravity = 0.8f;
+    private float gravity = 0.9f;
     public float maxSpeed = 4.5f;
 
     private Transform leftController;
     private Transform rightController;
     private Transform player;
+    private Transform cam;
 
 
     private bool leftSwing = false;
@@ -45,7 +46,7 @@ public class FlappingState : PlayerState
     public override void UpdateLogic()
     {
         base.UpdateLogic();
-        flapForceDirection = _sm.player.forward;
+        flapForceDirection = _sm.cam.forward;
 
 
         Rigidbody rigidbody = _sm.player.GetComponent<Rigidbody>();
