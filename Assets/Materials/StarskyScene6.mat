@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _ConstellationTex:
-        m_Texture: {fileID: 2800000, guid: 1492825bf5c6ad44b9da7152c414b394, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6b31c1ff6a009c5479d375367aba4a63, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -37,7 +37,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ConstellationWeight: 0.514
+    - _ConstellationWeight: 0.418
     - _Lat: -68.8
     - _Latitude: 35
     - _RotHorizontal: 0
